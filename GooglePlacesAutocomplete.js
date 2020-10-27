@@ -795,7 +795,7 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
           {_renderRightButton()}
         </View>
       )}
-      <View style={{position:'absolute',top:60}}>
+      <View style={{position:'absolute',top:50}}>
       {_getFlatList()}
       </View>
       {props.children}
